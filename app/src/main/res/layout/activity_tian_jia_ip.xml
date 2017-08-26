@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tian_jia_ip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chenjun.ruitongone.ui.TianJiaIPActivity">
+
+    <TextView
+        android:text="添加主机地址"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:focusable="false"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et"
+            android:background="@drawable/baikuang"
+            android:hint="请填写主机地址"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <Button
+            android:id="@+id/bt1"
+            android:text="添加"
+            android:background="@drawable/selector_img_bg"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="110dp"
+            android:layout_height="45dp" />
+
+        <Button
+            android:textSize="20sp"
+            android:text="取消"
+            android:background="@drawable/selector_img_bg"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/bt2"
+            android:layout_width="110dp"
+            android:layout_height="45dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

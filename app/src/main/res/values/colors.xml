@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#06dddddd</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="detail_background">#0096a6</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+    <color name="black">#6e000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange_transparent">#AAFADCA7</color>
+    <color name="orange">#FADCA7</color>
+    <color name="yellow">#EEFF41</color>
+    <color name="red">#ffe70707</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="default_background2">#06f5de</color>
+    <color name="a3">#00002F</color>
+    <color name="a33">#cc00002F</color>
+    <color name="huise22">#aa6F071B</color>
+    <color name="red2">#cf0b0e</color>
+    <color name="lanse">#D20011</color>
+    <color name="lanse22">#380000</color>
+    <color name="lanse33">#1b37d6</color>
+    <color name="caolv">#039C6E</color>
+    <color name="heise2">#aa000000</color>
+    <color name="heise3">#38000000</color>
+    <color name="red222">#EE5825</color>
+    <color name="heise333">#59372f</color>
+    <color name="ssss">#4a98d1</color>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/img_full_opaque"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/fff113"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/ffflll"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/img_full_opaque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/touxiang"
+            android:layout_centerVertical="true"
+            android:layout_width="210dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="168dp"
+            android:layout_height="210dp" />
+
+        <ImageView
+            android:id="@+id/tishi_im"
+            android:layout_width="20dp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/touxiang"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_below="@+id/tishi_im"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="500dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tishi_tv"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:text="sds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_below="@+id/tishi_tv"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:id="@+id/ddd"
+                android:text="莅临参观指导！"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+        </RelativeLayout>
